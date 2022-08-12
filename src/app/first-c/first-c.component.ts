@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstCComponent implements OnInit {
 
+  messageOnInit: string | undefined;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.messageOnInit = 'Hello from Init!'
   }
 }
